@@ -27,6 +27,8 @@ export class SkeletonScene {
   private groups = new Map<string, { root: Group; box: Box3; meshes: Mesh[]; bone: Bone }>();
   private meshIds = new Map<Mesh, string>();
   private pickable: Mesh[] = [];
+  private contextMeshes: Mesh[] = [];
+  private contextBox = new Box3();
   private raycaster = new Raycaster();
   private pointers = new Set<number>();
   private press: { x: number; y: number; id: number } | null = null;
@@ -106,7 +108,13 @@ export class SkeletonScene {
       const box = new Box3().setFromObject(object, true);
       if (meshes.length && !box.isEmpty()) this.groups.set(id, { root: object as Group, box, meshes, bone });
     });
-    // Only mapped structures take part in hit testing, even when a model supplies context meshes.
+    gltf.traverse((part) => {
+      if (!(part instanceof Mesh) || this.meshIds.has(part)) return;
+      for (const material of [part.material].flat()) material.dispose();
+      part.material = this.meshMaterial;
+      this.contextMeshes.push(part);
+      this.contextBox.expandByObject(part, true);
+    });
     this.update(null, 'all', null, true, true);
     return data.filter((bone) => this.groups.has(bone.id));
   }
@@ -124,7 +132,13 @@ export class SkeletonScene {
         this.pickable.push(...group.meshes);
       }
     }
-    this.grid.visible = !isolated && filter === 'all';
+    const showContext = !isolated && filter === 'all';
+    for (const part of this.contextMeshes) part.visible = showContext;
+    if (showContext) {
+      this.visibleBox.union(this.contextBox);
+      this.pickable.push(...this.contextMeshes);
+    }
+    this.grid.visible = showContext;
     this.camera.setBounds(this.visibleBox);
     this.color();
     if (reframe) this.camera.frame(this.visibleBox);

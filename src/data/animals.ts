@@ -1,44 +1,69 @@
-import modelMapping from '../../sources/model-mapping.json';
 import type { Bone } from './bones';
+import { catBones } from './cat';
 import { cowBones } from './cow';
 import { dogBones } from './dog';
 import { horseBones } from './horse';
+import { goatBones, sheepBones } from './small-ruminants';
 
-export type AnimalId = 'dog' | 'cow' | 'horse';
-export type Animal = {
-  id: AnimalId;
-  name: string;
-  latin: string;
+type Credit = {
+  title: string;
+  author: string;
   source: string;
-  model: string;
-  limitations: string;
-  bones: Bone[];
+  changes: string;
 };
 
-const source = 'https://github.com/VT-ARIES/Anatomy/tree/a4fdb87bd2e998eea670f873a633883c615758ca/models/';
-export const nomenclature = 'https://www.wava-amav.org/wava-documents.html';
+export type Animal = {
+  id: 'dog' | 'cat' | 'cow' | 'horse' | 'sheep' | 'goat';
+  name: string;
+  latin: string;
+  limitations: string;
+  bones: Bone[];
+  model?: string;
+  credit?: Credit;
+};
+
+const aries: Credit = {
+  title: 'Virginia Tech Virtual Animal Project',
+  author: 'команда ARIES, Virginia Tech University Libraries',
+  source: 'https://github.com/VT-ARIES/Anatomy',
+  changes: 'Собраны учебные группы, нормированы положение и масштаб, упрощены поверхности, удалены текстуры.',
+};
+
 export const animals: Animal[] = [
   {
     id: 'dog', name: 'Собака', latin: 'Canis lupus familiaris',
-    source: source + 'Canine', model: 'dog.glb', bones: dogBones,
+    model: 'dog.glb', credit: aries, bones: dogBones,
     limitations: 'Представлен учебный набор костей. Подъязычный аппарат исключён, зубы не выделены отдельно. Мелкие детали поверхностей упрощены при подготовке модели для браузера.',
   },
   {
+    id: 'cat', name: 'Кошка', latin: 'Felis catus',
+    model: 'cat.glb', bones: catBones,
+    credit: {
+      title: 'Cat Skeleton',
+      author: 'Tavernier Amaury, разметка участков — sebamestica/Vetworld',
+      source: 'https://sketchfab.com/3d-models/cat-skeleton-7106115b299649e992476f2d3b4fc602',
+      changes: 'Сохранена геометрия фотограмметрии, объединены участки для выбора, нормированы ориентация и масштаб, удалена текстура.',
+    },
+    limitations: 'Фотограмметрия скелета. Для выбора доступны пять участков поверхности с приблизительными границами. Отдельные кости целиком не выделены, поэтому учебные задания для этой модели недоступны.',
+  },
+  {
     id: 'cow', name: 'Корова', latin: 'Bos taurus',
-    source: source + 'Bovine', model: 'cow.glb', bones: cowBones,
+    model: 'cow.glb', credit: aries, bones: cowBones,
     limitations: 'В источнике отсутствуют отдельные модели грудины и крестца. Неидентифицированный фрагмент голени исключён. Мелкие детали поверхностей упрощены.',
   },
   {
     id: 'horse', name: 'Лошадь', latin: 'Equus caballus',
-    source: source + 'Equine', model: 'horse.glb', bones: horseBones,
+    model: 'horse.glb', credit: aries, bones: horseBones,
     limitations: 'У источника нет отдельной модели локтевой кости и концевой части хвоста. Рёберные хрящи исключены. Мелкие детали поверхностей упрощены.',
   },
+  {
+    id: 'sheep', name: 'Овца', latin: 'Ovis aries',
+    bones: sheepBones,
+    limitations: '3D-модель овцы пока не добавлена.',
+  },
+  {
+    id: 'goat', name: 'Коза', latin: 'Capra hircus',
+    bones: goatBones,
+    limitations: '3D-модель козы пока не добавлена.',
+  },
 ];
-
-export function componentSource(animal: Animal, id: string) {
-  const paths = modelMapping[animal.id] as Record<string, { path: string; commit: string }[]>;
-  const item = paths[id]?.[0];
-  if (!item) return animal.source;
-  const path = item.path.split('/').map(encodeURIComponent).join('/');
-  return 'https://github.com/VT-ARIES/Anatomy/blob/' + item.commit + '/' + path;
-}

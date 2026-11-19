@@ -60,7 +60,7 @@ h1 { font-size: clamp(28px, 4.7vw, 51px); line-height: 1.02; letter-spacing: -.0
 .secondary.subtle { background: #fff; border-color: var(--line); }
 .secondary.subtle:hover:enabled { background: #f6f1ff; }
 .wide { width: 100%; }
-.animals { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 11px; }
+.animals { display: grid; grid-template-columns: repeat(auto-fit, minmax(157px, 1fr)); gap: 11px; }
 .animal { display: flex; align-items: center; gap: 11px; text-align: left; padding: 10px 13px; min-height: 65px; border: 1px solid var(--line); border-radius: 13px; background: #fff; }
 .animal:hover { border-color: #b499ec; }
 .animal[aria-pressed="true"] { border-color: #b395ee; background: #f2ebfe; box-shadow: inset 0 0 0 1px #b395ee; }
@@ -88,6 +88,7 @@ h1 { font-size: clamp(28px, 4.7vw, 51px); line-height: 1.02; letter-spacing: -.0
 .search input::placeholder { color: #746b83; }
 .bone-items { list-style: none; margin: 0 5px 11px 0; padding: 0 6px 0 9px; max-height: 420px; overflow: auto; scrollbar-width: thin; scrollbar-color: #cfc0e6 transparent; }
 .bone-items button { display: flex; width: 100%; justify-content: space-between; align-items: center; gap: 5px; min-height: 37px; padding: 5px 8px; text-align: left; font-size: 13px; border-radius: 8px; line-height: 1.25; }
+.bone-items em { display: block; margin-top: 3px; color: var(--muted); font-size: 11px; font-weight: 500; }
 .bone-items button:hover { background: #f7f2fe; }
 .bone-items button[aria-pressed="true"] { background: #efe5fc; color: var(--purple-deep); font-weight: 730; }
 .bone-items button:focus-visible { outline-offset: -2px; }
@@ -131,7 +132,7 @@ h1 { font-size: clamp(28px, 4.7vw, 51px); line-height: 1.02; letter-spacing: -.0
 .spinner { display: inline-block; width: 27px; height: 27px; border: 2px solid #a084c070; border-top-color: #e8d6ff; border-radius: 50%; animation: spin .8s linear infinite; }
 @keyframes spin { to { transform: rotate(360deg); } }
 
-.bone-heading, .bone-description, .bone-actions, .card-sources { margin-inline: 13px; }
+.bone-heading, .bone-description, .bone-actions { margin-inline: 13px; }
 .bone-heading { padding-top: 14px; }
 .bone-icon { display: inline-grid; width: 40px; height: 40px; place-items: center; margin-right: 8px; border-radius: 9px; color: var(--purple); background: var(--wash); vertical-align: middle; }
 .section-label { font-size: 11px; font-weight: 720; color: var(--purple-deep); }
@@ -143,11 +144,8 @@ h1 { font-size: clamp(28px, 4.7vw, 51px); line-height: 1.02; letter-spacing: -.0
 .bone-description dd { color: #5c526a; margin: 0; }
 .bone-description .species-note { padding: 9px; border: 0; border-radius: 9px; background: #f5effc; }
 .species-note dt { color: var(--purple-deep); }
-.bone-actions { display: grid; gap: 5px; }
+.bone-actions { display: grid; gap: 5px; margin-bottom: 13px; }
 .bone-actions .secondary { min-height: 35px; font-size: 12px; }
-.card-sources { display: flex; flex-wrap: wrap; gap: 7px 12px; padding: 10px 0 13px; }
-.card-sources a, .model-note a { display: inline-flex; align-items: center; gap: 2px; text-decoration: none; font-size: 11px; font-weight: 700; }
-.card-sources a:hover, .model-note a:hover { text-decoration: underline; }
 .details-empty { display: grid; justify-items: center; text-align: center; padding: 42px 16px; color: var(--muted); font-size: 14px; }
 .details-empty svg { color: #9f87c7; }
 
@@ -155,8 +153,14 @@ h1 { font-size: clamp(28px, 4.7vw, 51px); line-height: 1.02; letter-spacing: -.0
 .model-note > svg { color: var(--purple); align-self: start; }
 .model-note b { color: var(--ink); }
 .model-note p { margin: 2px 0 0; }
-.model-note a { white-space: nowrap; }
-.model-note a:first-of-type { margin-left: auto; }
+.model-note details { margin-top: 8px; }
+.model-note summary { color: var(--purple-deep); font-weight: 700; cursor: pointer; }
+.model-note .credit { margin-top: 6px; overflow-wrap: anywhere; }
+.reference-panel { display: grid; justify-items: start; align-content: center; gap: 9px; min-height: 310px; padding: 24px; }
+.reference-panel > svg { color: var(--purple); }
+.reference-panel h2 { font-size: 21px; line-height: 1.2; margin: 0; }
+.reference-panel p { margin: 0; color: var(--muted); font-size: 14px; line-height: 1.45; }
+.reference-panel .model-unavailable { color: var(--purple-deep); font-weight: 680; }
 .quiz-body { padding: 14px; }
 .quiz-body h2 { font-size: 23px; line-height: 1.15; letter-spacing: -.035em; margin: 11px 0; }
 .quiz-body h3 { font-size: 15px; margin: 16px 0 8px; }
@@ -196,7 +200,7 @@ h1 { font-size: clamp(28px, 4.7vw, 51px); line-height: 1.02; letter-spacing: -.0
 
 @media (max-width: 900px) {
   .workspace { grid-template-columns: minmax(0,1fr) minmax(220px, .55fr); }
-  .viewer { grid-column: 1 / -1; grid-row: 1; }
+  .viewer, .reference-panel { grid-column: 1 / -1; grid-row: 1; }
   .quiz-workspace .viewer { grid-column: 1; }
   .viewer-toolbar { flex-direction: row; align-items: center; }
   .quiz-workspace .viewer-toolbar { flex-direction: column; align-items: start; }
@@ -212,7 +216,7 @@ h1 { font-size: clamp(28px, 4.7vw, 51px); line-height: 1.02; letter-spacing: -.0
   .intro { align-items: start; flex-direction: column; gap: 12px; padding-block: 18px 13px; }
   .intro p { font-size: 13px; }
   .activity-button { min-height: 39px; }
-  .animals { gap: 5px; }
+  .animals { grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 5px; }
   .animal { min-height: 53px; gap: 4px; padding: 5px; }
   .animal b { font-size: 13px; }
   .animal-icon { width: 24px; height: 26px; border-radius: 6px; }
@@ -229,13 +233,13 @@ h1 { font-size: clamp(28px, 4.7vw, 51px); line-height: 1.02; letter-spacing: -.0
   .viewer-views button { padding-inline: 8px; min-height: 35px; }
   .viewport { height: clamp(250px, 42vh, 380px); }
   .scene-tools button { width: 43px; height: 43px; }
+  .reference-panel { min-height: 145px; padding: 14px; }
   .details { grid-row: 2; }
   .explorer { grid-row: 3; }
   .bone-items { max-height: 230px; }
   .bone-items button, .bone-actions .secondary { min-height: 43px; }
   .model-note { align-items: start; flex-wrap: wrap; }
   .model-note div { flex: 1 1 82%; }
-  .model-note a:first-of-type { margin-left: 29px; }
 }
 
 @media (prefers-reduced-motion: reduce) {

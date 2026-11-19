@@ -1,7 +1,9 @@
-import { Bone as BoneIcon, Crosshair, Layers2, LocateFixed, ScanLine } from 'lucide-react';
+import { ArrowUpRight, Bone as BoneIcon, Crosshair, Layers2, LocateFixed, ScanLine } from 'lucide-react';
+import { componentSource, nomenclature, type Animal } from './data/animals';
 import { sections, type Bone } from './data/bones';
 
-export function BoneCard({ bone, isolated, onIsolate, onFocus }: {
+export function BoneCard({ animal, bone, isolated, onIsolate, onFocus }: {
+  animal: Animal;
   bone?: Bone;
   isolated: boolean;
   onIsolate: () => void;
@@ -27,6 +29,14 @@ export function BoneCard({ bone, isolated, onIsolate, onFocus }: {
         <div className="bone-actions">
           <button className="secondary" onClick={onIsolate}>{isolated ? <Layers2 size={17} /> : <ScanLine size={17} />}{isolated ? 'Вернуть в скелет' : 'Показать отдельно'}</button>
           <button className="secondary subtle" onClick={onFocus}><LocateFixed size={17} />Сфокусировать камеру</button>
+        </div>
+        <div className="source-links card-sources">
+          <a href={componentSource(animal, bone.id)} target="_blank" rel="noreferrer">
+            {animal.id === 'cat' ? 'Разметка 3D-модели' : 'Ветеринарный атлас'} <ArrowUpRight size={14} aria-hidden="true" />
+          </a>
+          <a href={nomenclature} target="_blank" rel="noreferrer">
+            Номенклатура <ArrowUpRight size={14} aria-hidden="true" />
+          </a>
         </div>
       </>}
     </aside>

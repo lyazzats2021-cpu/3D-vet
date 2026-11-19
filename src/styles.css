@@ -132,7 +132,7 @@ h1 { font-size: clamp(28px, 4.7vw, 51px); line-height: 1.02; letter-spacing: -.0
 .spinner { display: inline-block; width: 27px; height: 27px; border: 2px solid #a084c070; border-top-color: #e8d6ff; border-radius: 50%; animation: spin .8s linear infinite; }
 @keyframes spin { to { transform: rotate(360deg); } }
 
-.bone-heading, .bone-description, .bone-actions { margin-inline: 13px; }
+.bone-heading, .bone-description, .bone-actions, .card-sources { margin-inline: 13px; }
 .bone-heading { padding-top: 14px; }
 .bone-icon { display: inline-grid; width: 40px; height: 40px; place-items: center; margin-right: 8px; border-radius: 9px; color: var(--purple); background: var(--wash); vertical-align: middle; }
 .section-label { font-size: 11px; font-weight: 720; color: var(--purple-deep); }
@@ -153,6 +153,10 @@ h1 { font-size: clamp(28px, 4.7vw, 51px); line-height: 1.02; letter-spacing: -.0
 .model-note > svg { color: var(--purple); align-self: start; }
 .model-note b { color: var(--ink); }
 .model-note p { margin: 2px 0 0; }
+.source-links { display: flex; flex-wrap: wrap; gap: 6px 12px; }
+.source-links a { display: inline-flex; align-items: center; gap: 3px; font-size: 12px; font-weight: 700; text-underline-offset: 2px; }
+.card-sources { padding-bottom: 13px; }
+.model-sources { margin-top: 8px; }
 .model-note details { margin-top: 8px; }
 .model-note summary { color: var(--purple-deep); font-weight: 700; cursor: pointer; }
 .model-note .credit { margin-top: 6px; overflow-wrap: anywhere; }

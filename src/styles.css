@@ -156,11 +156,6 @@ h1 { font-size: clamp(28px, 4.7vw, 51px); line-height: 1.02; letter-spacing: -.0
 .model-note details { margin-top: 8px; }
 .model-note summary { color: var(--purple-deep); font-weight: 700; cursor: pointer; }
 .model-note .credit { margin-top: 6px; overflow-wrap: anywhere; }
-.reference-panel { display: grid; justify-items: start; align-content: center; gap: 9px; min-height: 310px; padding: 24px; }
-.reference-panel > svg { color: var(--purple); }
-.reference-panel h2 { font-size: 21px; line-height: 1.2; margin: 0; }
-.reference-panel p { margin: 0; color: var(--muted); font-size: 14px; line-height: 1.45; }
-.reference-panel .model-unavailable { color: var(--purple-deep); font-weight: 680; }
 .quiz-body { padding: 14px; }
 .quiz-body h2 { font-size: 23px; line-height: 1.15; letter-spacing: -.035em; margin: 11px 0; }
 .quiz-body h3 { font-size: 15px; margin: 16px 0 8px; }
@@ -200,7 +195,7 @@ h1 { font-size: clamp(28px, 4.7vw, 51px); line-height: 1.02; letter-spacing: -.0
 
 @media (max-width: 900px) {
   .workspace { grid-template-columns: minmax(0,1fr) minmax(220px, .55fr); }
-  .viewer, .reference-panel { grid-column: 1 / -1; grid-row: 1; }
+  .viewer { grid-column: 1 / -1; grid-row: 1; }
   .quiz-workspace .viewer { grid-column: 1; }
   .viewer-toolbar { flex-direction: row; align-items: center; }
   .quiz-workspace .viewer-toolbar { flex-direction: column; align-items: start; }
@@ -216,7 +211,7 @@ h1 { font-size: clamp(28px, 4.7vw, 51px); line-height: 1.02; letter-spacing: -.0
   .intro { align-items: start; flex-direction: column; gap: 12px; padding-block: 18px 13px; }
   .intro p { font-size: 13px; }
   .activity-button { min-height: 39px; }
-  .animals { grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 5px; }
+  .animals { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 5px; }
   .animal { min-height: 53px; gap: 4px; padding: 5px; }
   .animal b { font-size: 13px; }
   .animal-icon { width: 24px; height: 26px; border-radius: 6px; }
@@ -233,7 +228,6 @@ h1 { font-size: clamp(28px, 4.7vw, 51px); line-height: 1.02; letter-spacing: -.0
   .viewer-views button { padding-inline: 8px; min-height: 35px; }
   .viewport { height: clamp(250px, 42vh, 380px); }
   .scene-tools button { width: 43px; height: 43px; }
-  .reference-panel { min-height: 145px; padding: 14px; }
   .details { grid-row: 2; }
   .explorer { grid-row: 3; }
   .bone-items { max-height: 230px; }

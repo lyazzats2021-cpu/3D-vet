@@ -1,4 +1,4 @@
-import { ArrowLeft, ArrowRight, Bone as BoneIcon, Box, Cat, ClipboardCheck, Dog, Info, Layers2, PawPrint } from 'lucide-react';
+import { ArrowLeft, ArrowRight, Box, Cat, ClipboardCheck, Dog, Info, Layers2, PawPrint } from 'lucide-react';
 import { useState } from 'react';
 import { createRoot } from 'react-dom/client';
 import { BoneCard, BoneList } from './BoneCard';
@@ -23,8 +23,7 @@ function App() {
   const finished = questions.length > 0 && index === questions.length;
   const question = questions[index];
   const quiz = questions.length > 0;
-  const listedBones = animal.model ? available : animal.bones;
-  const bone = listedBones.find((item) => item.id === selected);
+  const bone = available.find((item) => item.id === selected);
 
   function changeAnimal(next: Animal) {
     if (next.id === animal.id) return;
@@ -95,7 +94,7 @@ function App() {
   const shownSelection = quiz
     ? question && (question.kind !== 'find' || answers[index]) ? question.bone.id : null
     : bone?.id ?? null;
-  const visibleBones = listedBones.filter((item) => filter === 'all' || item.section === filter);
+  const visibleBones = available.filter((item) => filter === 'all' || item.section === filter);
   const quizEnabled = available.filter((item) => item.quiz).length >= 3;
 
   return (
@@ -130,24 +129,18 @@ function App() {
           <span className="section-bar-label"><Layers2 size={17} />Отделы</span>
           <button aria-pressed={filter === 'all'} onClick={() => changeSection('all')}>Весь скелет</button>
           {(Object.entries(sections) as [Section, string][]).map(([key, title]) => (
-            <button key={key} aria-pressed={filter === key} disabled={!listedBones.some((item) => item.section === key)} onClick={() => changeSection(key)}>{title}</button>
+            <button key={key} aria-pressed={filter === key} disabled={!available.some((item) => item.section === key)} onClick={() => changeSection(key)}>{title}</button>
           ))}
         </div>}
 
         <div className={'workspace' + (quiz ? ' quiz-workspace' : '')}>
           {!quiz && <BoneList bones={visibleBones} selected={selected} onSelect={selectFromList} query={query} setQuery={setQuery} />}
-          {animal.model ? <Viewer key={animal.id} animal={animal} selected={shownSelection}
+          <Viewer key={animal.id} animal={animal} selected={shownSelection}
             isolated={quiz ? null : isolated} filter={quiz ? 'all' : filter}
-            quiz={quiz} action={action} onPick={pick} onLoad={setAvailable} /> :
-            <section className="panel reference-panel" aria-labelledby="reference-title">
-              <BoneIcon size={28} />
-              <h2 id="reference-title">{animal.name} — справочник костей</h2>
-              <p>Выберите отдел скелета или найдите кость по русскому либо латинскому названию.</p>
-              <p className="model-unavailable">{animal.limitations}</p>
-            </section>}
+            quiz={quiz} action={action} onPick={pick} onLoad={setAvailable} />
           {quiz ? <QuizPanel questions={questions} answers={answers} index={index} finished={finished}
             onAnswer={submitAnswer} onNext={advance} onRepeat={startQuiz} onExit={exitQuiz} /> :
-            <BoneCard bone={bone} isolated={!!isolated} modelAvailable={!!animal.model}
+            <BoneCard bone={bone} isolated={!!isolated}
               onIsolate={() => {
                 if (!bone) return;
                 if (isolated) setFilter('all');
@@ -157,18 +150,18 @@ function App() {
               onFocus={() => { if (bone) setAction({ type: 'focus', id: bone.id }); }} />}
         </div>
 
-        {animal.model && <footer className="model-note">
+        <footer className="model-note">
           <Info size={18} />
           <div>
             <b>Об учебной модели</b><p>{animal.limitations}</p>
-            {animal.credit && <details>
+            <details>
               <summary>Авторство и условия использования</summary>
               <p className="credit">{animal.credit.title} — {animal.credit.author}. {animal.credit.changes}</p>
               <p className="credit">{animal.credit.source}</p>
               <p className="credit">CC BY-NC-SA 4.0 · https://creativecommons.org/licenses/by-nc-sa/4.0/</p>
-            </details>}
+            </details>
           </div>
-        </footer>}
+        </footer>
       </main>
     </>
   );

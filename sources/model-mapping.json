@@ -1500,6 +1500,56 @@
           "proposal-femur-surface-ypos"
         ]
       }
+    ],
+    "vertebrae_trunk": [
+      {
+        "path": "public/models/feline/tavernier-partial-surfaces.glb",
+        "commit": "504398019071c86bb0f1138ae2a665996c11747f",
+        "nodes": [
+          "unidentified-remainder"
+        ],
+        "processing": "scripts/prepare-cat-model.py"
+      }
+    ],
+    "caudal": [
+      {
+        "path": "public/models/feline/tavernier-partial-surfaces.glb",
+        "commit": "504398019071c86bb0f1138ae2a665996c11747f",
+        "nodes": [
+          "unidentified-remainder"
+        ],
+        "processing": "scripts/prepare-cat-model.py"
+      }
+    ],
+    "ribs": [
+      {
+        "path": "public/models/feline/tavernier-partial-surfaces.glb",
+        "commit": "504398019071c86bb0f1138ae2a665996c11747f",
+        "nodes": [
+          "unidentified-remainder"
+        ],
+        "processing": "scripts/prepare-cat-model.py"
+      }
+    ],
+    "forearm": [
+      {
+        "path": "public/models/feline/tavernier-partial-surfaces.glb",
+        "commit": "504398019071c86bb0f1138ae2a665996c11747f",
+        "nodes": [
+          "proposal-antebrachium-radius-ulna-surface-yneg",
+          "proposal-antebrachium-radius-ulna-surface-ypos"
+        ]
+      }
+    ],
+    "crus": [
+      {
+        "path": "public/models/feline/tavernier-partial-surfaces.glb",
+        "commit": "504398019071c86bb0f1138ae2a665996c11747f",
+        "nodes": [
+          "proposal-crus-tibia-fibula-surface-yneg",
+          "proposal-crus-tibia-fibula-surface-ypos"
+        ]
+      }
     ]
   }
 }

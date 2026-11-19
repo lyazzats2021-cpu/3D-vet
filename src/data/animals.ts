@@ -3,7 +3,6 @@ import { catBones } from './cat';
 import { cowBones } from './cow';
 import { dogBones } from './dog';
 import { horseBones } from './horse';
-import { goatBones, sheepBones } from './small-ruminants';
 
 type Credit = {
   title: string;
@@ -13,13 +12,13 @@ type Credit = {
 };
 
 export type Animal = {
-  id: 'dog' | 'cat' | 'cow' | 'horse' | 'sheep' | 'goat';
+  id: 'dog' | 'cat' | 'cow' | 'horse';
   name: string;
   latin: string;
   limitations: string;
   bones: Bone[];
-  model?: string;
-  credit?: Credit;
+  model: string;
+  credit: Credit;
 };
 
 const aries: Credit = {
@@ -42,9 +41,9 @@ export const animals: Animal[] = [
       title: 'Cat Skeleton',
       author: 'Tavernier Amaury, разметка участков — sebamestica/Vetworld',
       source: 'https://sketchfab.com/3d-models/cat-skeleton-7106115b299649e992476f2d3b4fc602',
-      changes: 'Сохранена геометрия фотограмметрии, объединены участки для выбора, нормированы ориентация и масштаб, удалена текстура.',
+      changes: 'Участки сгруппированы для выбора, видимые поверхности позвоночника и рёбер размечены дополнительно, ориентация и масштаб нормированы, текстура удалена.',
     },
-    limitations: 'Фотограмметрия скелета. Для выбора доступны пять участков поверхности с приблизительными границами. Отдельные кости целиком не выделены, поэтому учебные задания для этой модели недоступны.',
+    limitations: 'Фотограмметрия скелета с десятью выбираемыми участками во всех пяти отделах. Некоторые кости объединены в группы, края участков приблизительны. Неполные поверхности скана сохранены в исходном виде.',
   },
   {
     id: 'cow', name: 'Корова', latin: 'Bos taurus',
@@ -55,15 +54,5 @@ export const animals: Animal[] = [
     id: 'horse', name: 'Лошадь', latin: 'Equus caballus',
     model: 'horse.glb', credit: aries, bones: horseBones,
     limitations: 'У источника нет отдельной модели локтевой кости и концевой части хвоста. Рёберные хрящи исключены. Мелкие детали поверхностей упрощены.',
-  },
-  {
-    id: 'sheep', name: 'Овца', latin: 'Ovis aries',
-    bones: sheepBones,
-    limitations: '3D-модель овцы пока не добавлена.',
-  },
-  {
-    id: 'goat', name: 'Коза', latin: 'Capra hircus',
-    bones: goatBones,
-    limitations: '3D-модель козы пока не добавлена.',
   },
 ];

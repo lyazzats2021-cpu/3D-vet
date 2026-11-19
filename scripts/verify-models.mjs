@@ -15,13 +15,7 @@ try {
     const quizCount = animal.bones.filter((bone) => bone.quiz).length;
     assert.equal(new Set(expected).size, expected.length, animal.name + ': повторяющийся ID');
     assert.ok(animal.bones.every((bone) => bone.latin.trim()), animal.name + ': отсутствует латинское название');
-    if (!animal.model) {
-      assert.equal(quizCount, 0, animal.name + ': 3D-вопросы без модели');
-      console.log(animal.name + ' — ' + expected.length + ' карточек справочника');
-      continue;
-    }
-
-    assert.ok(animal.credit?.source, animal.name + ': отсутствует атрибуция модели');
+    assert.ok(animal.credit.source, animal.name + ': отсутствует атрибуция модели');
     const model = await readFile('public/models/' + animal.model);
     assert.equal(model.toString('ascii', 0, 4), 'glTF', animal.model);
     assert.equal(model.readUInt32LE(4), 2, animal.model);

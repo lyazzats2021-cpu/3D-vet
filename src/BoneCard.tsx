@@ -1,17 +1,16 @@
 import { Bone as BoneIcon, Crosshair, Layers2, LocateFixed, ScanLine } from 'lucide-react';
 import { sections, type Bone } from './data/bones';
 
-export function BoneCard({ bone, isolated, modelAvailable, onIsolate, onFocus }: {
+export function BoneCard({ bone, isolated, onIsolate, onFocus }: {
   bone?: Bone;
   isolated: boolean;
-  modelAvailable: boolean;
   onIsolate: () => void;
   onFocus: () => void;
 }) {
   return (
     <aside className="panel details" aria-labelledby="details-title">
       <div className="panel-title" id="details-title"><Layers2 size={18} /> Карточка кости</div>
-      {!bone && <div className="details-empty"><BoneIcon size={28} /><p>{modelAvailable ? 'Выберите кость на модели или в списке.' : 'Выберите кость в списке.'}</p></div>}
+      {!bone && <div className="details-empty"><BoneIcon size={28} /><p>Выберите кость на модели или в списке.</p></div>}
       {bone && <>
         <div className="bone-heading">
           <span className="bone-icon"><BoneIcon size={24} /></span>
@@ -25,10 +24,10 @@ export function BoneCard({ bone, isolated, modelAvailable, onIsolate, onFocus }:
           {bone.joints && <div><dt>Соединения</dt><dd>{bone.joints}</dd></div>}
           {bone.detail && <div className="species-note"><dt>Особенности вида</dt><dd>{bone.detail}</dd></div>}
         </dl>
-        {modelAvailable && <div className="bone-actions">
+        <div className="bone-actions">
           <button className="secondary" onClick={onIsolate}>{isolated ? <Layers2 size={17} /> : <ScanLine size={17} />}{isolated ? 'Вернуть в скелет' : 'Показать отдельно'}</button>
           <button className="secondary subtle" onClick={onFocus}><LocateFixed size={17} />Сфокусировать камеру</button>
-        </div>}
+        </div>
       </>}
     </aside>
   );

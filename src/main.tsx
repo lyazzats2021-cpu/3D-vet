@@ -1,9 +1,9 @@
-import { ArrowLeft, ArrowRight, Box, Cat, ClipboardCheck, Dog, Info, Layers2, PawPrint } from 'lucide-react';
+import { ArrowLeft, ArrowRight, ArrowUpRight, Box, Cat, ClipboardCheck, Dog, Info, Layers2, PawPrint } from 'lucide-react';
 import { useState } from 'react';
 import { createRoot } from 'react-dom/client';
 import { BoneCard, BoneList } from './BoneCard';
 import { QuizPanel } from './QuizPanel';
-import { animals, type Animal } from './data/animals';
+import { animals, modelLicense, type Animal } from './data/animals';
 import { sections, type Bone, type Filter, type Section } from './data/bones';
 import { makeQuiz, type Answer, type Question } from './quiz';
 import { Viewer, type CameraAction } from './viewer/Viewer';
@@ -140,7 +140,7 @@ function App() {
             quiz={quiz} action={action} onPick={pick} onLoad={setAvailable} />
           {quiz ? <QuizPanel questions={questions} answers={answers} index={index} finished={finished}
             onAnswer={submitAnswer} onNext={advance} onRepeat={startQuiz} onExit={exitQuiz} /> :
-            <BoneCard bone={bone} isolated={!!isolated}
+            <BoneCard animal={animal} bone={bone} isolated={!!isolated}
               onIsolate={() => {
                 if (!bone) return;
                 if (isolated) setFilter('all');
@@ -154,11 +154,17 @@ function App() {
           <Info size={18} />
           <div>
             <b>Об учебной модели</b><p>{animal.limitations}</p>
+            <div className="source-links model-sources">
+              <a href={animal.credit.source} target="_blank" rel="noreferrer">
+                {animal.credit.sourceLabel} <ArrowUpRight size={14} aria-hidden="true" />
+              </a>
+              <a href={modelLicense.url} target="_blank" rel="noreferrer">
+                {modelLicense.name} <ArrowUpRight size={14} aria-hidden="true" />
+              </a>
+            </div>
             <details>
               <summary>Авторство и условия использования</summary>
               <p className="credit">{animal.credit.title} — {animal.credit.author}. {animal.credit.changes}</p>
-              <p className="credit">{animal.credit.source}</p>
-              <p className="credit">CC BY-NC-SA 4.0 · https://creativecommons.org/licenses/by-nc-sa/4.0/</p>
             </details>
           </div>
         </footer>

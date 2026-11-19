@@ -1450,5 +1450,56 @@
         "commit": "ea9c85c2b647a030d486f15bb3dd73b8562d6c71"
       }
     ]
+  },
+  "cat": {
+    "skull": [
+      {
+        "path": "public/models/feline/tavernier-partial-surfaces.glb",
+        "commit": "504398019071c86bb0f1138ae2a665996c11747f",
+        "nodes": [
+          "proposal-head-skeleton-surface-midline"
+        ]
+      }
+    ],
+    "scapula": [
+      {
+        "path": "public/models/feline/tavernier-partial-surfaces.glb",
+        "commit": "504398019071c86bb0f1138ae2a665996c11747f",
+        "nodes": [
+          "proposal-scapula-surface-yneg",
+          "proposal-scapula-surface-ypos"
+        ]
+      }
+    ],
+    "humerus": [
+      {
+        "path": "public/models/feline/tavernier-partial-surfaces.glb",
+        "commit": "504398019071c86bb0f1138ae2a665996c11747f",
+        "nodes": [
+          "proposal-humerus-surface-yneg",
+          "proposal-humerus-surface-ypos"
+        ]
+      }
+    ],
+    "pelvis": [
+      {
+        "path": "public/models/feline/tavernier-partial-surfaces.glb",
+        "commit": "504398019071c86bb0f1138ae2a665996c11747f",
+        "nodes": [
+          "proposal-os-coxae-surface-yneg",
+          "proposal-os-coxae-surface-ypos"
+        ]
+      }
+    ],
+    "femur": [
+      {
+        "path": "public/models/feline/tavernier-partial-surfaces.glb",
+        "commit": "504398019071c86bb0f1138ae2a665996c11747f",
+        "nodes": [
+          "proposal-femur-surface-yneg",
+          "proposal-femur-surface-ypos"
+        ]
+      }
+    ]
   }
 }

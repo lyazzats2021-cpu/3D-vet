@@ -31,7 +31,7 @@ export function Viewer(props: Props) {
   const [angle, setAngle] = useState<View | null>(null);
 
   useEffect(() => {
-    if (!host.current) return;
+    if (!host.current || !props.animal.model) return;
     let active = true;
     setStatus('loading');
     setHover(null);

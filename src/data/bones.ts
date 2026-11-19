@@ -13,7 +13,7 @@ export type Bone = {
   id: string;
   section: Section;
   name: string;
-  latin?: string;
+  latin: string;
   location: string;
   role: string;
   joints?: string;
@@ -23,7 +23,7 @@ export type Bone = {
 
 type Description = Omit<Bone, 'id' | 'detail' | 'quiz'>;
 const structure = (
-  section: Section, name: string, latin: string | undefined, location: string, role: string, joints?: string,
+  section: Section, name: string, latin: string, location: string, role: string, joints?: string,
 ): Description => ({ section, name, latin, location, role, joints });
 
 const descriptions = {
@@ -44,10 +44,10 @@ const descriptions = {
   radius: structure('forelimbs', 'Лучевая кость', 'Radius', 'В предплечье между плечевой костью и запястьем.', 'Передаёт нагрузку от запястья к плечу.', 'С плечевой, локтевой и костями запястья.'),
   ulna: structure('forelimbs', 'Локтевая кость', 'Ulna', 'Каудально от лучевой кости в предплечье.', 'Локтевой отросток служит рычагом для разгибания локтевого сустава.', 'С плечевой и лучевой костями.'),
   carpus: structure('forelimbs', 'Кости запястья', 'Ossa carpi', 'Между предплечьем и пястью.', 'Образуют запястный сустав, который сгибается при переносе конечности.'),
-  metacarpus: structure('forelimbs', 'Пястные кости', 'Metacarpus', 'Между запястьем и пальцами грудной конечности.', 'Передают нагрузку от пальцев на запястье.'),
+  metacarpus: structure('forelimbs', 'Пястные кости', 'Ossa metacarpalia', 'Между запястьем и пальцами грудной конечности.', 'Передают нагрузку от пальцев на запястье.'),
   metacarpal_v: structure('forelimbs', 'Пятая пястная кость', 'Os metacarpale V', 'С латеральной стороны проксимального отдела пясти.', 'Рудиментарный элемент пясти.'),
-  front_splints: structure('forelimbs', 'Грифельные кости пясти', undefined, 'По бокам от III пястной кости.', 'Участвуют в формировании проксимальной опоры пясти.'),
-  front_phalanges: structure('forelimbs', 'Фаланги грудных конечностей', undefined, 'В пальцах дистальнее пясти.', 'Участвуют в опоре и сгибании пальцев.'),
+  front_splints: structure('forelimbs', 'Грифельные кости пясти', 'Ossa metacarpalia II et IV', 'По бокам от III пястной кости.', 'Участвуют в формировании проксимальной опоры пясти.'),
+  front_phalanges: structure('forelimbs', 'Фаланги грудных конечностей', 'Phalanges digitorum manus', 'В пальцах дистальнее пясти.', 'Участвуют в опоре и сгибании пальцев.'),
   front_sesamoids: structure('forelimbs', 'Сесамовидные кости грудных конечностей', 'Ossa sesamoidea', 'На уровне суставов пальцев грудной конечности.', 'Поддерживают сустав и меняют направление тяги сухожилий.'),
   pelvis: structure('hindlimbs', 'Тазовые кости', 'Os coxae', 'По обе стороны от крестца.', 'Участвуют в опоре туловища на тазовые конечности.', 'С крестцом и с головками бедренных костей.'),
   femur: structure('hindlimbs', 'Бедренная кость', 'Os femoris', 'Между тазом и голенью.', 'Принимает нагрузку таза и служит рычагом для движений бедра.', 'С тазовой костью, большеберцовой костью и надколенником.'),
@@ -56,9 +56,9 @@ const descriptions = {
   fibula: structure('hindlimbs', 'Малоберцовая кость', 'Fibula', 'Латерально от большеберцовой кости.', 'Служит местом прикрепления мышц и связок голени.'),
   calcaneus: structure('hindlimbs', 'Пяточная кость', 'Calcaneus', 'Выступает каудально в скакательном суставе.', 'Пяточный бугор служит рычагом при разгибании скакательного сустава.'),
   tarsus: structure('hindlimbs', 'Кости заплюсны без пяточных', 'Ossa tarsi', 'Между голенью и плюсной.', 'Вместе с пяточной костью формируют скакательный сустав.'),
-  metatarsus: structure('hindlimbs', 'Плюсневые кости', 'Metatarsus', 'Между заплюсной и пальцами тазовой конечности.', 'Передают нагрузку от пальцев на заплюсну.'),
-  hind_splints: structure('hindlimbs', 'Грифельные кости плюсны', undefined, 'По бокам от III плюсневой кости.', 'Участвуют в формировании проксимальной опоры плюсны.'),
-  hind_phalanges: structure('hindlimbs', 'Фаланги тазовых конечностей', undefined, 'В пальцах дистальнее плюсны.', 'Участвуют в опоре и сгибании пальцев при отталкивании.'),
+  metatarsus: structure('hindlimbs', 'Плюсневые кости', 'Ossa metatarsalia', 'Между заплюсной и пальцами тазовой конечности.', 'Передают нагрузку от пальцев на заплюсну.'),
+  hind_splints: structure('hindlimbs', 'Грифельные кости плюсны', 'Ossa metatarsalia II et IV', 'По бокам от III плюсневой кости.', 'Участвуют в формировании проксимальной опоры плюсны.'),
+  hind_phalanges: structure('hindlimbs', 'Фаланги тазовых конечностей', 'Phalanges digitorum pedis', 'В пальцах дистальнее плюсны.', 'Участвуют в опоре и сгибании пальцев при отталкивании.'),
   hind_sesamoids: structure('hindlimbs', 'Сесамовидные кости тазовых конечностей', 'Ossa sesamoidea', 'На уровне суставов пальцев тазовой конечности.', 'Поддерживают сустав и меняют направление тяги сухожилий.'),
 } satisfies Record<string, Description>;
 

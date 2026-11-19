@@ -1,0 +1,1454 @@
+{
+  "dog": {
+    "mandible": [
+      {
+        "path": "models/Canine/Skull/Mandible.glb",
+        "commit": "a4fdb87bd2e998eea670f873a633883c615758ca"
+      }
+    ],
+    "atlas": [
+      {
+        "path": "models/Canine/Neck/C1_Atlas.glb",
+        "commit": "a4fdb87bd2e998eea670f873a633883c615758ca"
+      }
+    ],
+    "axis": [
+      {
+        "path": "models/Canine/Neck/C2_Axis.glb",
+        "commit": "a4fdb87bd2e998eea670f873a633883c615758ca"
+      }
+    ],
+    "cervical": [
+      {
+        "path": "models/Canine/Neck/C3.glb",
+        "commit": "a4fdb87bd2e998eea670f873a633883c615758ca"
+      },
+      {
+        "path": "models/Canine/Neck/C4.glb",
+        "commit": "a4fdb87bd2e998eea670f873a633883c615758ca"
+      },
+      {
+        "path": "models/Canine/Neck/C5.glb",
+        "commit": "a4fdb87bd2e998eea670f873a633883c615758ca"
+      },
+      {
+        "path": "models/Canine/Neck/C6.glb",
+        "commit": "a4fdb87bd2e998eea670f873a633883c615758ca"
+      },
+      {
+        "path": "models/Canine/Neck/C7.glb",
+        "commit": "a4fdb87bd2e998eea670f873a633883c615758ca"
+      }
+    ],
+    "thoracic": [
+      {
+        "path": "models/Canine/Spine/Anticlinical_Vertebra.glb",
+        "commit": "a4fdb87bd2e998eea670f873a633883c615758ca"
+      },
+      {
+        "path": "models/Canine/Spine/Thoracic_Vertebrae.glb",
+        "commit": "a4fdb87bd2e998eea670f873a633883c615758ca"
+      }
+    ],
+    "lumbar": [
+      {
+        "path": "models/Canine/Spine/Lumbar_Vertebrae.glb",
+        "commit": "a4fdb87bd2e998eea670f873a633883c615758ca"
+      }
+    ],
+    "sacrum": [
+      {
+        "path": "models/Canine/Pelvis_Tail/Sacrum.glb",
+        "commit": "a4fdb87bd2e998eea670f873a633883c615758ca"
+      }
+    ],
+    "caudal": [
+      {
+        "path": "models/Canine/Pelvis_Tail/Caudal_Vertebrae.glb",
+        "commit": "a4fdb87bd2e998eea670f873a633883c615758ca"
+      },
+      {
+        "path": "models/Canine/Pelvis_Tail/Caudal_Vertebrae1.glb",
+        "commit": "a4fdb87bd2e998eea670f873a633883c615758ca"
+      },
+      {
+        "path": "models/Canine/Pelvis_Tail/Caudal_Vertebrae10.glb",
+        "commit": "a4fdb87bd2e998eea670f873a633883c615758ca"
+      },
+      {
+        "path": "models/Canine/Pelvis_Tail/Caudal_Vertebrae11.glb",
+        "commit": "a4fdb87bd2e998eea670f873a633883c615758ca"
+      },
+      {
+        "path": "models/Canine/Pelvis_Tail/Caudal_Vertebrae12.glb",
+        "commit": "a4fdb87bd2e998eea670f873a633883c615758ca"
+      },
+      {
+        "path": "models/Canine/Pelvis_Tail/Caudal_Vertebrae13.glb",
+        "commit": "a4fdb87bd2e998eea670f873a633883c615758ca"
+      },
+      {
+        "path": "models/Canine/Pelvis_Tail/Caudal_Vertebrae14.glb",
+        "commit": "a4fdb87bd2e998eea670f873a633883c615758ca"
+      },
+      {
+        "path": "models/Canine/Pelvis_Tail/Caudal_Vertebrae15.glb",
+        "commit": "a4fdb87bd2e998eea670f873a633883c615758ca"
+      },
+      {
+        "path": "models/Canine/Pelvis_Tail/Caudal_Vertebrae16.glb",
+        "commit": "a4fdb87bd2e998eea670f873a633883c615758ca"
+      },
+      {
+        "path": "models/Canine/Pelvis_Tail/Caudal_Vertebrae17.glb",
+        "commit": "a4fdb87bd2e998eea670f873a633883c615758ca"
+      },
+      {
+        "path": "models/Canine/Pelvis_Tail/Caudal_Vertebrae18.glb",
+        "commit": "a4fdb87bd2e998eea670f873a633883c615758ca"
+      },
+      {
+        "path": "models/Canine/Pelvis_Tail/Caudal_Vertebrae2.glb",
+        "commit": "a4fdb87bd2e998eea670f873a633883c615758ca"
+      },
+      {
+        "path": "models/Canine/Pelvis_Tail/Caudal_Vertebrae3.glb",
+        "commit": "a4fdb87bd2e998eea670f873a633883c615758ca"
+      },
+      {
+        "path": "models/Canine/Pelvis_Tail/Caudal_Vertebrae4.glb",
+        "commit": "a4fdb87bd2e998eea670f873a633883c615758ca"
+      },
+      {
+        "path": "models/Canine/Pelvis_Tail/Caudal_Vertebrae5.glb",
+        "commit": "a4fdb87bd2e998eea670f873a633883c615758ca"
+      },
+      {
+        "path": "models/Canine/Pelvis_Tail/Caudal_Vertebrae6.glb",
+        "commit": "a4fdb87bd2e998eea670f873a633883c615758ca"
+      },
+      {
+        "path": "models/Canine/Pelvis_Tail/Caudal_Vertebrae7.glb",
+        "commit": "a4fdb87bd2e998eea670f873a633883c615758ca"
+      },
+      {
+        "path": "models/Canine/Pelvis_Tail/Caudal_Vertebrae8.glb",
+        "commit": "a4fdb87bd2e998eea670f873a633883c615758ca"
+      },
+      {
+        "path": "models/Canine/Pelvis_Tail/Caudal_Vertebrae9.glb",
+        "commit": "a4fdb87bd2e998eea670f873a633883c615758ca"
+      }
+    ],
+    "ribs": [
+      {
+        "path": "models/Canine/Ribs/Ribs.glb",
+        "commit": "a4fdb87bd2e998eea670f873a633883c615758ca"
+      }
+    ],
+    "sternum": [
+      {
+        "path": "models/Canine/Ribs/Sternebrae.glb",
+        "commit": "a4fdb87bd2e998eea670f873a633883c615758ca"
+      },
+      {
+        "path": "models/Canine/Ribs/Xiphoid_Process.glb",
+        "commit": "a4fdb87bd2e998eea670f873a633883c615758ca"
+      }
+    ],
+    "scapula": [
+      {
+        "path": "models/Canine/Legs/Left_Front/Scapula.glb",
+        "commit": "a4fdb87bd2e998eea670f873a633883c615758ca"
+      },
+      {
+        "path": "models/Canine/Legs/Right_Front/Scapula.glb",
+        "commit": "a4fdb87bd2e998eea670f873a633883c615758ca"
+      }
+    ],
+    "humerus": [
+      {
+        "path": "models/Canine/Legs/Left_Front/Humerus.glb",
+        "commit": "a4fdb87bd2e998eea670f873a633883c615758ca"
+      },
+      {
+        "path": "models/Canine/Legs/Right_Front/Humerus.glb",
+        "commit": "a4fdb87bd2e998eea670f873a633883c615758ca"
+      }
+    ],
+    "radius": [
+      {
+        "path": "models/Canine/Legs/Left_Front/Radius.glb",
+        "commit": "a4fdb87bd2e998eea670f873a633883c615758ca"
+      },
+      {
+        "path": "models/Canine/Legs/Right_Front/Radius.glb",
+        "commit": "a4fdb87bd2e998eea670f873a633883c615758ca"
+      }
+    ],
+    "ulna": [
+      {
+        "path": "models/Canine/Legs/Left_Front/Ulna.glb",
+        "commit": "a4fdb87bd2e998eea670f873a633883c615758ca"
+      },
+      {
+        "path": "models/Canine/Legs/Right_Front/Ulna.glb",
+        "commit": "a4fdb87bd2e998eea670f873a633883c615758ca"
+      }
+    ],
+    "carpus": [
+      {
+        "path": "models/Canine/Legs/Left_Front/Accessory_Carpal.glb",
+        "commit": "a4fdb87bd2e998eea670f873a633883c615758ca"
+      },
+      {
+        "path": "models/Canine/Legs/Left_Front/Distal_Carpal_I.glb",
+        "commit": "a4fdb87bd2e998eea670f873a633883c615758ca"
+      },
+      {
+        "path": "models/Canine/Legs/Left_Front/Distal_Carpal_II.glb",
+        "commit": "a4fdb87bd2e998eea670f873a633883c615758ca"
+      },
+      {
+        "path": "models/Canine/Legs/Left_Front/Distal_Carpal_III.glb",
+        "commit": "a4fdb87bd2e998eea670f873a633883c615758ca"
+      },
+      {
+        "path": "models/Canine/Legs/Left_Front/Distal_Carpal_IV.glb",
+        "commit": "a4fdb87bd2e998eea670f873a633883c615758ca"
+      },
+      {
+        "path": "models/Canine/Legs/Left_Front/Radial.glb",
+        "commit": "a4fdb87bd2e998eea670f873a633883c615758ca"
+      },
+      {
+        "path": "models/Canine/Legs/Left_Front/Ulnar.glb",
+        "commit": "a4fdb87bd2e998eea670f873a633883c615758ca"
+      },
+      {
+        "path": "models/Canine/Legs/Right_Front/Accessory_Carpal.glb",
+        "commit": "a4fdb87bd2e998eea670f873a633883c615758ca"
+      },
+      {
+        "path": "models/Canine/Legs/Right_Front/Distal_Carpal_I.glb",
+        "commit": "a4fdb87bd2e998eea670f873a633883c615758ca"
+      },
+      {
+        "path": "models/Canine/Legs/Right_Front/Distal_Carpal_II.glb",
+        "commit": "a4fdb87bd2e998eea670f873a633883c615758ca"
+      },
+      {
+        "path": "models/Canine/Legs/Right_Front/Distal_Carpal_III.glb",
+        "commit": "a4fdb87bd2e998eea670f873a633883c615758ca"
+      },
+      {
+        "path": "models/Canine/Legs/Right_Front/Distal_Carpal_IV.glb",
+        "commit": "a4fdb87bd2e998eea670f873a633883c615758ca"
+      },
+      {
+        "path": "models/Canine/Legs/Right_Front/Radial.glb",
+        "commit": "a4fdb87bd2e998eea670f873a633883c615758ca"
+      },
+      {
+        "path": "models/Canine/Legs/Right_Front/Ulnar.glb",
+        "commit": "a4fdb87bd2e998eea670f873a633883c615758ca"
+      }
+    ],
+    "metacarpus": [
+      {
+        "path": "models/Canine/Legs/Left_Front/Metacarpal_I.glb",
+        "commit": "a4fdb87bd2e998eea670f873a633883c615758ca"
+      },
+      {
+        "path": "models/Canine/Legs/Left_Front/Metacarpal_II.glb",
+        "commit": "a4fdb87bd2e998eea670f873a633883c615758ca"
+      },
+      {
+        "path": "models/Canine/Legs/Left_Front/Metacarpal_III.glb",
+        "commit": "a4fdb87bd2e998eea670f873a633883c615758ca"
+      },
+      {
+        "path": "models/Canine/Legs/Left_Front/Metacarpal_IV.glb",
+        "commit": "a4fdb87bd2e998eea670f873a633883c615758ca"
+      },
+      {
+        "path": "models/Canine/Legs/Left_Front/Metacarpal_V.glb",
+        "commit": "a4fdb87bd2e998eea670f873a633883c615758ca"
+      },
+      {
+        "path": "models/Canine/Legs/Right_Front/Metacarpal_I.glb",
+        "commit": "a4fdb87bd2e998eea670f873a633883c615758ca"
+      },
+      {
+        "path": "models/Canine/Legs/Right_Front/Metacarpal_II.glb",
+        "commit": "a4fdb87bd2e998eea670f873a633883c615758ca"
+      },
+      {
+        "path": "models/Canine/Legs/Right_Front/Metacarpal_III.glb",
+        "commit": "a4fdb87bd2e998eea670f873a633883c615758ca"
+      },
+      {
+        "path": "models/Canine/Legs/Right_Front/Metacarpal_IV.glb",
+        "commit": "a4fdb87bd2e998eea670f873a633883c615758ca"
+      },
+      {
+        "path": "models/Canine/Legs/Right_Front/Metacarpal_V.glb",
+        "commit": "a4fdb87bd2e998eea670f873a633883c615758ca"
+      }
+    ],
+    "front_phalanges": [
+      {
+        "path": "models/Canine/Legs/Left_Front/Distal_Phalanges.glb",
+        "commit": "a4fdb87bd2e998eea670f873a633883c615758ca"
+      },
+      {
+        "path": "models/Canine/Legs/Left_Front/Middle_Phalanges.glb",
+        "commit": "a4fdb87bd2e998eea670f873a633883c615758ca"
+      },
+      {
+        "path": "models/Canine/Legs/Left_Front/Proximal_Phalanges.glb",
+        "commit": "a4fdb87bd2e998eea670f873a633883c615758ca"
+      },
+      {
+        "path": "models/Canine/Legs/Right_Front/Distal_Phalanges.glb",
+        "commit": "a4fdb87bd2e998eea670f873a633883c615758ca"
+      },
+      {
+        "path": "models/Canine/Legs/Right_Front/Middle_Phalanges.glb",
+        "commit": "a4fdb87bd2e998eea670f873a633883c615758ca"
+      },
+      {
+        "path": "models/Canine/Legs/Right_Front/Proximal_Phalanges.glb",
+        "commit": "a4fdb87bd2e998eea670f873a633883c615758ca"
+      }
+    ],
+    "front_sesamoids": [
+      {
+        "path": "models/Canine/Legs/Left_Front/Proximal_Sesamoid.glb",
+        "commit": "a4fdb87bd2e998eea670f873a633883c615758ca"
+      },
+      {
+        "path": "models/Canine/Legs/Right_Front/Proximal_Sesamoid.glb",
+        "commit": "a4fdb87bd2e998eea670f873a633883c615758ca"
+      }
+    ],
+    "pelvis": [
+      {
+        "path": "models/Canine/Pelvis_Tail/Os_Coxae.glb",
+        "commit": "a4fdb87bd2e998eea670f873a633883c615758ca"
+      }
+    ],
+    "femur": [
+      {
+        "path": "models/Canine/Legs/Left_Back/Femur.glb",
+        "commit": "a4fdb87bd2e998eea670f873a633883c615758ca"
+      },
+      {
+        "path": "models/Canine/Legs/Right_Back/Femur.glb",
+        "commit": "a4fdb87bd2e998eea670f873a633883c615758ca"
+      }
+    ],
+    "patella": [
+      {
+        "path": "models/Canine/Legs/Left_Back/Patella.glb",
+        "commit": "a4fdb87bd2e998eea670f873a633883c615758ca"
+      },
+      {
+        "path": "models/Canine/Legs/Right_Back/Patella.glb",
+        "commit": "a4fdb87bd2e998eea670f873a633883c615758ca"
+      }
+    ],
+    "tibia": [
+      {
+        "path": "models/Canine/Legs/Left_Back/Tibia.glb",
+        "commit": "a4fdb87bd2e998eea670f873a633883c615758ca"
+      },
+      {
+        "path": "models/Canine/Legs/Right_Back/Tibia.glb",
+        "commit": "a4fdb87bd2e998eea670f873a633883c615758ca"
+      }
+    ],
+    "fibula": [
+      {
+        "path": "models/Canine/Legs/Left_Back/Fibula.glb",
+        "commit": "a4fdb87bd2e998eea670f873a633883c615758ca"
+      },
+      {
+        "path": "models/Canine/Legs/Right_Back/Fibula.glb",
+        "commit": "a4fdb87bd2e998eea670f873a633883c615758ca"
+      }
+    ],
+    "calcaneus": [
+      {
+        "path": "models/Canine/Legs/Left_Back/Calcaneus.glb",
+        "commit": "a4fdb87bd2e998eea670f873a633883c615758ca"
+      },
+      {
+        "path": "models/Canine/Legs/Right_Back/Calcaneus.glb",
+        "commit": "a4fdb87bd2e998eea670f873a633883c615758ca"
+      }
+    ],
+    "tarsus": [
+      {
+        "path": "models/Canine/Legs/Left_Back/Central_Tarsal.glb",
+        "commit": "a4fdb87bd2e998eea670f873a633883c615758ca"
+      },
+      {
+        "path": "models/Canine/Legs/Left_Back/Tarsal_I.glb",
+        "commit": "a4fdb87bd2e998eea670f873a633883c615758ca"
+      },
+      {
+        "path": "models/Canine/Legs/Left_Back/Tarsal_II.glb",
+        "commit": "a4fdb87bd2e998eea670f873a633883c615758ca"
+      },
+      {
+        "path": "models/Canine/Legs/Left_Back/Tarsal_III.glb",
+        "commit": "a4fdb87bd2e998eea670f873a633883c615758ca"
+      },
+      {
+        "path": "models/Canine/Legs/Left_Back/Tarsal_IV.glb",
+        "commit": "a4fdb87bd2e998eea670f873a633883c615758ca"
+      },
+      {
+        "path": "models/Canine/Legs/Left_Back/Trochlea.glb",
+        "commit": "a4fdb87bd2e998eea670f873a633883c615758ca"
+      },
+      {
+        "path": "models/Canine/Legs/Right_Back/Central_Tarsal.glb",
+        "commit": "a4fdb87bd2e998eea670f873a633883c615758ca"
+      },
+      {
+        "path": "models/Canine/Legs/Right_Back/Tarsal_I.glb",
+        "commit": "a4fdb87bd2e998eea670f873a633883c615758ca"
+      },
+      {
+        "path": "models/Canine/Legs/Right_Back/Tarsal_II.glb",
+        "commit": "a4fdb87bd2e998eea670f873a633883c615758ca"
+      },
+      {
+        "path": "models/Canine/Legs/Right_Back/Tarsal_III.glb",
+        "commit": "a4fdb87bd2e998eea670f873a633883c615758ca"
+      },
+      {
+        "path": "models/Canine/Legs/Right_Back/Tarsal_IV.glb",
+        "commit": "a4fdb87bd2e998eea670f873a633883c615758ca"
+      },
+      {
+        "path": "models/Canine/Legs/Right_Back/Trochlea.glb",
+        "commit": "a4fdb87bd2e998eea670f873a633883c615758ca"
+      }
+    ],
+    "metatarsus": [
+      {
+        "path": "models/Canine/Legs/Left_Back/Metatarsal_I.glb",
+        "commit": "a4fdb87bd2e998eea670f873a633883c615758ca"
+      },
+      {
+        "path": "models/Canine/Legs/Left_Back/Metatarsal_II.glb",
+        "commit": "a4fdb87bd2e998eea670f873a633883c615758ca"
+      },
+      {
+        "path": "models/Canine/Legs/Left_Back/Metatarsal_III.glb",
+        "commit": "a4fdb87bd2e998eea670f873a633883c615758ca"
+      },
+      {
+        "path": "models/Canine/Legs/Left_Back/Metatarsal_IV.glb",
+        "commit": "a4fdb87bd2e998eea670f873a633883c615758ca"
+      },
+      {
+        "path": "models/Canine/Legs/Left_Back/Metatarsal_V.glb",
+        "commit": "a4fdb87bd2e998eea670f873a633883c615758ca"
+      },
+      {
+        "path": "models/Canine/Legs/Right_Back/Metatarsal_I.glb",
+        "commit": "a4fdb87bd2e998eea670f873a633883c615758ca"
+      },
+      {
+        "path": "models/Canine/Legs/Right_Back/Metatarsal_II.glb",
+        "commit": "a4fdb87bd2e998eea670f873a633883c615758ca"
+      },
+      {
+        "path": "models/Canine/Legs/Right_Back/Metatarsal_III.glb",
+        "commit": "a4fdb87bd2e998eea670f873a633883c615758ca"
+      },
+      {
+        "path": "models/Canine/Legs/Right_Back/Metatarsal_IV.glb",
+        "commit": "a4fdb87bd2e998eea670f873a633883c615758ca"
+      },
+      {
+        "path": "models/Canine/Legs/Right_Back/Metatarsal_V.glb",
+        "commit": "a4fdb87bd2e998eea670f873a633883c615758ca"
+      }
+    ],
+    "hind_phalanges": [
+      {
+        "path": "models/Canine/Legs/Left_Back/Distal_Phalanges.glb",
+        "commit": "a4fdb87bd2e998eea670f873a633883c615758ca"
+      },
+      {
+        "path": "models/Canine/Legs/Left_Back/Middle_Phalanges.glb",
+        "commit": "a4fdb87bd2e998eea670f873a633883c615758ca"
+      },
+      {
+        "path": "models/Canine/Legs/Left_Back/Proximal_Phalanges.glb",
+        "commit": "a4fdb87bd2e998eea670f873a633883c615758ca"
+      },
+      {
+        "path": "models/Canine/Legs/Right_Back/Distal_Phalanges.glb",
+        "commit": "a4fdb87bd2e998eea670f873a633883c615758ca"
+      },
+      {
+        "path": "models/Canine/Legs/Right_Back/Middle_Phalanges.glb",
+        "commit": "a4fdb87bd2e998eea670f873a633883c615758ca"
+      },
+      {
+        "path": "models/Canine/Legs/Right_Back/Proximal_Phalanges.glb",
+        "commit": "a4fdb87bd2e998eea670f873a633883c615758ca"
+      }
+    ],
+    "hind_sesamoids": [
+      {
+        "path": "models/Canine/Legs/Left_Back/Proximal_Sesamoid.glb",
+        "commit": "a4fdb87bd2e998eea670f873a633883c615758ca"
+      },
+      {
+        "path": "models/Canine/Legs/Right_Back/Proximal_Sesamoid.glb",
+        "commit": "a4fdb87bd2e998eea670f873a633883c615758ca"
+      }
+    ],
+    "skull": [
+      {
+        "path": "models/Canine/Skull/Skull.glb",
+        "commit": "327cbae36dbbaa31ad18d63ea08cb49e137a1e1f"
+      }
+    ]
+  },
+  "cow": {
+    "skull": [
+      {
+        "path": "models/Bovine/Skull_Cervical/Skull.glb",
+        "commit": "a4fdb87bd2e998eea670f873a633883c615758ca"
+      }
+    ],
+    "mandible": [
+      {
+        "path": "models/Bovine/Skull_Cervical/Mandible Bits.glb",
+        "commit": "a4fdb87bd2e998eea670f873a633883c615758ca"
+      },
+      {
+        "path": "models/Bovine/Skull_Cervical/Mandible.glb",
+        "commit": "a4fdb87bd2e998eea670f873a633883c615758ca"
+      }
+    ],
+    "atlas": [
+      {
+        "path": "models/Bovine/Skull_Cervical/Atlas C1.glb",
+        "commit": "a4fdb87bd2e998eea670f873a633883c615758ca"
+      }
+    ],
+    "axis": [
+      {
+        "path": "models/Bovine/Skull_Cervical/C2.glb",
+        "commit": "a4fdb87bd2e998eea670f873a633883c615758ca"
+      }
+    ],
+    "cervical": [
+      {
+        "path": "models/Bovine/Skull_Cervical/C3.glb",
+        "commit": "a4fdb87bd2e998eea670f873a633883c615758ca"
+      },
+      {
+        "path": "models/Bovine/Skull_Cervical/C4.glb",
+        "commit": "a4fdb87bd2e998eea670f873a633883c615758ca"
+      },
+      {
+        "path": "models/Bovine/Skull_Cervical/C5.glb",
+        "commit": "a4fdb87bd2e998eea670f873a633883c615758ca"
+      },
+      {
+        "path": "models/Bovine/Skull_Cervical/C6.glb",
+        "commit": "a4fdb87bd2e998eea670f873a633883c615758ca"
+      },
+      {
+        "path": "models/Bovine/Skull_Cervical/C7.glb",
+        "commit": "a4fdb87bd2e998eea670f873a633883c615758ca"
+      }
+    ],
+    "thoracic": [
+      {
+        "path": "models/Bovine/Ribs_Spine/T1.glb",
+        "commit": "a4fdb87bd2e998eea670f873a633883c615758ca"
+      },
+      {
+        "path": "models/Bovine/Ribs_Spine/T10.glb",
+        "commit": "a4fdb87bd2e998eea670f873a633883c615758ca"
+      },
+      {
+        "path": "models/Bovine/Ribs_Spine/T11.glb",
+        "commit": "a4fdb87bd2e998eea670f873a633883c615758ca"
+      },
+      {
+        "path": "models/Bovine/Ribs_Spine/T12.glb",
+        "commit": "a4fdb87bd2e998eea670f873a633883c615758ca"
+      },
+      {
+        "path": "models/Bovine/Ribs_Spine/T13.glb",
+        "commit": "a4fdb87bd2e998eea670f873a633883c615758ca"
+      },
+      {
+        "path": "models/Bovine/Ribs_Spine/T2.glb",
+        "commit": "a4fdb87bd2e998eea670f873a633883c615758ca"
+      },
+      {
+        "path": "models/Bovine/Ribs_Spine/T3.glb",
+        "commit": "a4fdb87bd2e998eea670f873a633883c615758ca"
+      },
+      {
+        "path": "models/Bovine/Ribs_Spine/T4.glb",
+        "commit": "a4fdb87bd2e998eea670f873a633883c615758ca"
+      },
+      {
+        "path": "models/Bovine/Ribs_Spine/T5.glb",
+        "commit": "a4fdb87bd2e998eea670f873a633883c615758ca"
+      },
+      {
+        "path": "models/Bovine/Ribs_Spine/T6.glb",
+        "commit": "a4fdb87bd2e998eea670f873a633883c615758ca"
+      },
+      {
+        "path": "models/Bovine/Ribs_Spine/T7.glb",
+        "commit": "a4fdb87bd2e998eea670f873a633883c615758ca"
+      },
+      {
+        "path": "models/Bovine/Ribs_Spine/T8.glb",
+        "commit": "a4fdb87bd2e998eea670f873a633883c615758ca"
+      },
+      {
+        "path": "models/Bovine/Ribs_Spine/T9.glb",
+        "commit": "a4fdb87bd2e998eea670f873a633883c615758ca"
+      }
+    ],
+    "lumbar": [
+      {
+        "path": "models/Bovine/Ribs_Spine/L1.glb",
+        "commit": "a4fdb87bd2e998eea670f873a633883c615758ca"
+      },
+      {
+        "path": "models/Bovine/Ribs_Spine/L2.glb",
+        "commit": "a4fdb87bd2e998eea670f873a633883c615758ca"
+      },
+      {
+        "path": "models/Bovine/Ribs_Spine/L3.glb",
+        "commit": "a4fdb87bd2e998eea670f873a633883c615758ca"
+      },
+      {
+        "path": "models/Bovine/Ribs_Spine/L4.glb",
+        "commit": "a4fdb87bd2e998eea670f873a633883c615758ca"
+      },
+      {
+        "path": "models/Bovine/Ribs_Spine/L5.glb",
+        "commit": "a4fdb87bd2e998eea670f873a633883c615758ca"
+      },
+      {
+        "path": "models/Bovine/Ribs_Spine/L6.glb",
+        "commit": "a4fdb87bd2e998eea670f873a633883c615758ca"
+      }
+    ],
+    "caudal": [
+      {
+        "path": "models/Bovine/Ribs_Spine/Caudal Vertebrae.glb",
+        "commit": "a4fdb87bd2e998eea670f873a633883c615758ca"
+      }
+    ],
+    "ribs": [
+      {
+        "path": "models/Bovine/Ribs_Spine/Ribs.glb",
+        "commit": "a4fdb87bd2e998eea670f873a633883c615758ca"
+      }
+    ],
+    "scapula": [
+      {
+        "path": "models/Bovine/Front_Legs/Scalpula.glb",
+        "commit": "a4fdb87bd2e998eea670f873a633883c615758ca"
+      }
+    ],
+    "humerus": [
+      {
+        "path": "models/Bovine/Front_Legs/Humerus.glb",
+        "commit": "a4fdb87bd2e998eea670f873a633883c615758ca"
+      }
+    ],
+    "radius": [
+      {
+        "path": "models/Bovine/Front_Legs/Radius.glb",
+        "commit": "a4fdb87bd2e998eea670f873a633883c615758ca"
+      }
+    ],
+    "ulna": [
+      {
+        "path": "models/Bovine/Front_Legs/Ulna.glb",
+        "commit": "a4fdb87bd2e998eea670f873a633883c615758ca"
+      }
+    ],
+    "carpus": [
+      {
+        "path": "models/Bovine/Front_Legs/Carpals.glb",
+        "commit": "a4fdb87bd2e998eea670f873a633883c615758ca"
+      }
+    ],
+    "metacarpus": [
+      {
+        "path": "models/Bovine/Front_Legs/Fused third fourth metacarpals.glb",
+        "commit": "a4fdb87bd2e998eea670f873a633883c615758ca"
+      }
+    ],
+    "metacarpal_v": [
+      {
+        "path": "models/Bovine/Front_Legs/Fifth Metacarpals.glb",
+        "commit": "a4fdb87bd2e998eea670f873a633883c615758ca"
+      }
+    ],
+    "front_phalanges": [
+      {
+        "path": "models/Bovine/Front_Legs/Phalanges.glb",
+        "commit": "a4fdb87bd2e998eea670f873a633883c615758ca"
+      }
+    ],
+    "front_sesamoids": [
+      {
+        "path": "models/Bovine/Front_Legs/Sesamoids.glb",
+        "commit": "a4fdb87bd2e998eea670f873a633883c615758ca"
+      }
+    ],
+    "pelvis": [
+      {
+        "path": "models/Bovine/Back Legs/Body of Illium.glb",
+        "commit": "a4fdb87bd2e998eea670f873a633883c615758ca"
+      }
+    ],
+    "femur": [
+      {
+        "path": "models/Bovine/Back Legs/Femur.glb",
+        "commit": "a4fdb87bd2e998eea670f873a633883c615758ca"
+      }
+    ],
+    "patella": [
+      {
+        "path": "models/Bovine/Back Legs/Patella.glb",
+        "commit": "a4fdb87bd2e998eea670f873a633883c615758ca"
+      }
+    ],
+    "tibia": [
+      {
+        "path": "models/Bovine/Back Legs/Tibia.glb",
+        "commit": "a4fdb87bd2e998eea670f873a633883c615758ca"
+      }
+    ],
+    "calcaneus": [
+      {
+        "path": "models/Bovine/Back Legs/Calcaneus.glb",
+        "commit": "a4fdb87bd2e998eea670f873a633883c615758ca"
+      }
+    ],
+    "tarsus": [
+      {
+        "path": "models/Bovine/Back Legs/Talus.glb",
+        "commit": "a4fdb87bd2e998eea670f873a633883c615758ca"
+      },
+      {
+        "path": "models/Bovine/Back Legs/Tarsals.glb",
+        "commit": "a4fdb87bd2e998eea670f873a633883c615758ca"
+      }
+    ],
+    "metatarsus": [
+      {
+        "path": "models/Bovine/Back Legs/Fused 3rd-4th Metatarsals.glb",
+        "commit": "a4fdb87bd2e998eea670f873a633883c615758ca"
+      }
+    ],
+    "hind_phalanges": [
+      {
+        "path": "models/Bovine/Back Legs/Distal Phalanges.glb",
+        "commit": "a4fdb87bd2e998eea670f873a633883c615758ca"
+      },
+      {
+        "path": "models/Bovine/Back Legs/Middle_Phalanges.glb",
+        "commit": "a4fdb87bd2e998eea670f873a633883c615758ca"
+      },
+      {
+        "path": "models/Bovine/Back Legs/Proximal Phalanges.glb",
+        "commit": "a4fdb87bd2e998eea670f873a633883c615758ca"
+      }
+    ],
+    "hind_sesamoids": [
+      {
+        "path": "models/Bovine/Back Legs/Distal Sesamoids.glb",
+        "commit": "a4fdb87bd2e998eea670f873a633883c615758ca"
+      },
+      {
+        "path": "models/Bovine/Back Legs/Proximal_Sesamoids.glb",
+        "commit": "a4fdb87bd2e998eea670f873a633883c615758ca"
+      }
+    ]
+  },
+  "horse": {
+    "skull": [
+      {
+        "path": "models/Equine/Skull/Cranium.glb",
+        "commit": "a4fdb87bd2e998eea670f873a633883c615758ca"
+      }
+    ],
+    "mandible": [
+      {
+        "path": "models/Equine/Skull/Mandible.glb",
+        "commit": "a4fdb87bd2e998eea670f873a633883c615758ca"
+      }
+    ],
+    "teeth": [
+      {
+        "path": "models/Equine/Teeth/Lower_Canine.glb",
+        "commit": "a4fdb87bd2e998eea670f873a633883c615758ca"
+      },
+      {
+        "path": "models/Equine/Teeth/Lower_Canine1.glb",
+        "commit": "a4fdb87bd2e998eea670f873a633883c615758ca"
+      },
+      {
+        "path": "models/Equine/Teeth/Lower_Incisor.glb",
+        "commit": "a4fdb87bd2e998eea670f873a633883c615758ca"
+      },
+      {
+        "path": "models/Equine/Teeth/Lower_Incisor1.glb",
+        "commit": "a4fdb87bd2e998eea670f873a633883c615758ca"
+      },
+      {
+        "path": "models/Equine/Teeth/Lower_Incisor2.glb",
+        "commit": "a4fdb87bd2e998eea670f873a633883c615758ca"
+      },
+      {
+        "path": "models/Equine/Teeth/Lower_Incisor3.glb",
+        "commit": "a4fdb87bd2e998eea670f873a633883c615758ca"
+      },
+      {
+        "path": "models/Equine/Teeth/Lower_Incisor4.glb",
+        "commit": "a4fdb87bd2e998eea670f873a633883c615758ca"
+      },
+      {
+        "path": "models/Equine/Teeth/Lower_Incisor5.glb",
+        "commit": "a4fdb87bd2e998eea670f873a633883c615758ca"
+      },
+      {
+        "path": "models/Equine/Teeth/Mandibular_Molar.glb",
+        "commit": "a4fdb87bd2e998eea670f873a633883c615758ca"
+      },
+      {
+        "path": "models/Equine/Teeth/Mandibular_Molar1.glb",
+        "commit": "a4fdb87bd2e998eea670f873a633883c615758ca"
+      },
+      {
+        "path": "models/Equine/Teeth/Mandibular_Molar2.glb",
+        "commit": "a4fdb87bd2e998eea670f873a633883c615758ca"
+      },
+      {
+        "path": "models/Equine/Teeth/Mandibular_Molar3.glb",
+        "commit": "a4fdb87bd2e998eea670f873a633883c615758ca"
+      },
+      {
+        "path": "models/Equine/Teeth/Mandibular_Molar4.glb",
+        "commit": "a4fdb87bd2e998eea670f873a633883c615758ca"
+      },
+      {
+        "path": "models/Equine/Teeth/Mandibular_Molar5.glb",
+        "commit": "a4fdb87bd2e998eea670f873a633883c615758ca"
+      },
+      {
+        "path": "models/Equine/Teeth/Mandibular_Premolar.glb",
+        "commit": "a4fdb87bd2e998eea670f873a633883c615758ca"
+      },
+      {
+        "path": "models/Equine/Teeth/Mandibular_Premolar1.glb",
+        "commit": "a4fdb87bd2e998eea670f873a633883c615758ca"
+      },
+      {
+        "path": "models/Equine/Teeth/Mandibular_Premolar2.glb",
+        "commit": "a4fdb87bd2e998eea670f873a633883c615758ca"
+      },
+      {
+        "path": "models/Equine/Teeth/Mandibular_Premolar3.glb",
+        "commit": "a4fdb87bd2e998eea670f873a633883c615758ca"
+      },
+      {
+        "path": "models/Equine/Teeth/Mandibular_Premolar4.glb",
+        "commit": "a4fdb87bd2e998eea670f873a633883c615758ca"
+      },
+      {
+        "path": "models/Equine/Teeth/Mandibular_Premolar5.glb",
+        "commit": "a4fdb87bd2e998eea670f873a633883c615758ca"
+      },
+      {
+        "path": "models/Equine/Teeth/Maxilary_Molar.glb",
+        "commit": "a4fdb87bd2e998eea670f873a633883c615758ca"
+      },
+      {
+        "path": "models/Equine/Teeth/Maxilary_Molar1.glb",
+        "commit": "a4fdb87bd2e998eea670f873a633883c615758ca"
+      },
+      {
+        "path": "models/Equine/Teeth/Maxilary_Molar2.glb",
+        "commit": "a4fdb87bd2e998eea670f873a633883c615758ca"
+      },
+      {
+        "path": "models/Equine/Teeth/Maxilary_Molar3.glb",
+        "commit": "a4fdb87bd2e998eea670f873a633883c615758ca"
+      },
+      {
+        "path": "models/Equine/Teeth/Maxilary_Molar4.glb",
+        "commit": "a4fdb87bd2e998eea670f873a633883c615758ca"
+      },
+      {
+        "path": "models/Equine/Teeth/Maxilary_Molar5.glb",
+        "commit": "a4fdb87bd2e998eea670f873a633883c615758ca"
+      },
+      {
+        "path": "models/Equine/Teeth/Maxilary_Premolar.glb",
+        "commit": "a4fdb87bd2e998eea670f873a633883c615758ca"
+      },
+      {
+        "path": "models/Equine/Teeth/Maxilary_Premolar1.glb",
+        "commit": "a4fdb87bd2e998eea670f873a633883c615758ca"
+      },
+      {
+        "path": "models/Equine/Teeth/Maxilary_Premolar2.glb",
+        "commit": "a4fdb87bd2e998eea670f873a633883c615758ca"
+      },
+      {
+        "path": "models/Equine/Teeth/Maxilary_Premolar3.glb",
+        "commit": "a4fdb87bd2e998eea670f873a633883c615758ca"
+      },
+      {
+        "path": "models/Equine/Teeth/Maxilary_Premolar4.glb",
+        "commit": "a4fdb87bd2e998eea670f873a633883c615758ca"
+      },
+      {
+        "path": "models/Equine/Teeth/Maxilary_Premolar5.glb",
+        "commit": "a4fdb87bd2e998eea670f873a633883c615758ca"
+      },
+      {
+        "path": "models/Equine/Teeth/Upper_Canine.glb",
+        "commit": "a4fdb87bd2e998eea670f873a633883c615758ca"
+      },
+      {
+        "path": "models/Equine/Teeth/Upper_Canine1.glb",
+        "commit": "a4fdb87bd2e998eea670f873a633883c615758ca"
+      },
+      {
+        "path": "models/Equine/Teeth/Upper_Incisor.glb",
+        "commit": "a4fdb87bd2e998eea670f873a633883c615758ca"
+      },
+      {
+        "path": "models/Equine/Teeth/Upper_Incisor1.glb",
+        "commit": "a4fdb87bd2e998eea670f873a633883c615758ca"
+      },
+      {
+        "path": "models/Equine/Teeth/Upper_Incisor2.glb",
+        "commit": "a4fdb87bd2e998eea670f873a633883c615758ca"
+      },
+      {
+        "path": "models/Equine/Teeth/Upper_Incisor3.glb",
+        "commit": "a4fdb87bd2e998eea670f873a633883c615758ca"
+      },
+      {
+        "path": "models/Equine/Teeth/Upper_Incisor4.glb",
+        "commit": "a4fdb87bd2e998eea670f873a633883c615758ca"
+      },
+      {
+        "path": "models/Equine/Teeth/Upper_Incisor5.glb",
+        "commit": "a4fdb87bd2e998eea670f873a633883c615758ca"
+      }
+    ],
+    "cervical": [
+      {
+        "path": "models/Equine/Neck/Cervical_Vertebrae.glb",
+        "commit": "a4fdb87bd2e998eea670f873a633883c615758ca"
+      },
+      {
+        "path": "models/Equine/Neck/Cervical_Vertebrae1.glb",
+        "commit": "a4fdb87bd2e998eea670f873a633883c615758ca"
+      },
+      {
+        "path": "models/Equine/Neck/Cervical_Vertebrae2.glb",
+        "commit": "a4fdb87bd2e998eea670f873a633883c615758ca"
+      },
+      {
+        "path": "models/Equine/Neck/Cervical_Vertebrae3.glb",
+        "commit": "a4fdb87bd2e998eea670f873a633883c615758ca"
+      },
+      {
+        "path": "models/Equine/Neck/Cervical_Vertebrae4.glb",
+        "commit": "a4fdb87bd2e998eea670f873a633883c615758ca"
+      },
+      {
+        "path": "models/Equine/Neck/Cervical_Vertebrae5.glb",
+        "commit": "a4fdb87bd2e998eea670f873a633883c615758ca"
+      },
+      {
+        "path": "models/Equine/Neck/Cervical_Vertebrae6.glb",
+        "commit": "a4fdb87bd2e998eea670f873a633883c615758ca"
+      }
+    ],
+    "thoracic": [
+      {
+        "path": "models/Equine/Spine/Thoracic_Vertebrae.glb",
+        "commit": "a4fdb87bd2e998eea670f873a633883c615758ca"
+      },
+      {
+        "path": "models/Equine/Spine/Thoracic_Vertebrae1.glb",
+        "commit": "a4fdb87bd2e998eea670f873a633883c615758ca"
+      },
+      {
+        "path": "models/Equine/Spine/Thoracic_Vertebrae10.glb",
+        "commit": "a4fdb87bd2e998eea670f873a633883c615758ca"
+      },
+      {
+        "path": "models/Equine/Spine/Thoracic_Vertebrae11.glb",
+        "commit": "a4fdb87bd2e998eea670f873a633883c615758ca"
+      },
+      {
+        "path": "models/Equine/Spine/Thoracic_Vertebrae12.glb",
+        "commit": "a4fdb87bd2e998eea670f873a633883c615758ca"
+      },
+      {
+        "path": "models/Equine/Spine/Thoracic_Vertebrae13.glb",
+        "commit": "a4fdb87bd2e998eea670f873a633883c615758ca"
+      },
+      {
+        "path": "models/Equine/Spine/Thoracic_Vertebrae14.glb",
+        "commit": "a4fdb87bd2e998eea670f873a633883c615758ca"
+      },
+      {
+        "path": "models/Equine/Spine/Thoracic_Vertebrae15.glb",
+        "commit": "a4fdb87bd2e998eea670f873a633883c615758ca"
+      },
+      {
+        "path": "models/Equine/Spine/Thoracic_Vertebrae16.glb",
+        "commit": "a4fdb87bd2e998eea670f873a633883c615758ca"
+      },
+      {
+        "path": "models/Equine/Spine/Thoracic_Vertebrae17.glb",
+        "commit": "a4fdb87bd2e998eea670f873a633883c615758ca"
+      },
+      {
+        "path": "models/Equine/Spine/Thoracic_Vertebrae2.glb",
+        "commit": "a4fdb87bd2e998eea670f873a633883c615758ca"
+      },
+      {
+        "path": "models/Equine/Spine/Thoracic_Vertebrae3.glb",
+        "commit": "a4fdb87bd2e998eea670f873a633883c615758ca"
+      },
+      {
+        "path": "models/Equine/Spine/Thoracic_Vertebrae4.glb",
+        "commit": "a4fdb87bd2e998eea670f873a633883c615758ca"
+      },
+      {
+        "path": "models/Equine/Spine/Thoracic_Vertebrae5.glb",
+        "commit": "a4fdb87bd2e998eea670f873a633883c615758ca"
+      },
+      {
+        "path": "models/Equine/Spine/Thoracic_Vertebrae6.glb",
+        "commit": "a4fdb87bd2e998eea670f873a633883c615758ca"
+      },
+      {
+        "path": "models/Equine/Spine/Thoracic_Vertebrae7.glb",
+        "commit": "a4fdb87bd2e998eea670f873a633883c615758ca"
+      },
+      {
+        "path": "models/Equine/Spine/Thoracic_Vertebrae8.glb",
+        "commit": "a4fdb87bd2e998eea670f873a633883c615758ca"
+      },
+      {
+        "path": "models/Equine/Spine/Thoracic_Vertebrae9.glb",
+        "commit": "a4fdb87bd2e998eea670f873a633883c615758ca"
+      }
+    ],
+    "lumbar": [
+      {
+        "path": "models/Equine/Spine/Lumbar_Vertebrae.glb",
+        "commit": "a4fdb87bd2e998eea670f873a633883c615758ca"
+      },
+      {
+        "path": "models/Equine/Spine/Lumbar_Vertebrae1.glb",
+        "commit": "a4fdb87bd2e998eea670f873a633883c615758ca"
+      },
+      {
+        "path": "models/Equine/Spine/Lumbar_Vertebrae2.glb",
+        "commit": "a4fdb87bd2e998eea670f873a633883c615758ca"
+      },
+      {
+        "path": "models/Equine/Spine/Lumbar_Vertebrae3.glb",
+        "commit": "a4fdb87bd2e998eea670f873a633883c615758ca"
+      },
+      {
+        "path": "models/Equine/Spine/Lumbar_Vertebrae4.glb",
+        "commit": "a4fdb87bd2e998eea670f873a633883c615758ca"
+      },
+      {
+        "path": "models/Equine/Spine/Lumbar_Vertebrae5.glb",
+        "commit": "a4fdb87bd2e998eea670f873a633883c615758ca"
+      }
+    ],
+    "sacrum": [
+      {
+        "path": "models/Equine/Pelvis_Tail/Sacral_Vertebrae.glb",
+        "commit": "a4fdb87bd2e998eea670f873a633883c615758ca"
+      }
+    ],
+    "caudal": [
+      {
+        "path": "models/Equine/Pelvis_Tail/Caudal_Vertebrae.glb",
+        "commit": "a4fdb87bd2e998eea670f873a633883c615758ca"
+      },
+      {
+        "path": "models/Equine/Pelvis_Tail/Caudal_Vertebrae1.glb",
+        "commit": "a4fdb87bd2e998eea670f873a633883c615758ca"
+      },
+      {
+        "path": "models/Equine/Pelvis_Tail/Caudal_Vertebrae2.glb",
+        "commit": "a4fdb87bd2e998eea670f873a633883c615758ca"
+      },
+      {
+        "path": "models/Equine/Pelvis_Tail/Caudal_Vertebrae3.glb",
+        "commit": "a4fdb87bd2e998eea670f873a633883c615758ca"
+      },
+      {
+        "path": "models/Equine/Pelvis_Tail/Caudal_Vertebrae4.glb",
+        "commit": "a4fdb87bd2e998eea670f873a633883c615758ca"
+      },
+      {
+        "path": "models/Equine/Pelvis_Tail/Caudal_Vertebrae5.glb",
+        "commit": "a4fdb87bd2e998eea670f873a633883c615758ca"
+      },
+      {
+        "path": "models/Equine/Pelvis_Tail/Caudal_Vertebrae6.glb",
+        "commit": "a4fdb87bd2e998eea670f873a633883c615758ca"
+      }
+    ],
+    "sternum": [
+      {
+        "path": "models/Equine/Ribs/Sternum.glb",
+        "commit": "a4fdb87bd2e998eea670f873a633883c615758ca"
+      }
+    ],
+    "scapula": [
+      {
+        "path": "models/Equine/Legs/Left_Front/Scapula.glb",
+        "commit": "a4fdb87bd2e998eea670f873a633883c615758ca"
+      },
+      {
+        "path": "models/Equine/Legs/Right_Front/Scapula.glb",
+        "commit": "a4fdb87bd2e998eea670f873a633883c615758ca"
+      }
+    ],
+    "humerus": [
+      {
+        "path": "models/Equine/Legs/Left_Front/Humerus.glb",
+        "commit": "a4fdb87bd2e998eea670f873a633883c615758ca"
+      },
+      {
+        "path": "models/Equine/Legs/Right_Front/Humerus.glb",
+        "commit": "a4fdb87bd2e998eea670f873a633883c615758ca"
+      }
+    ],
+    "radius": [
+      {
+        "path": "models/Equine/Legs/Left_Front/Radius.glb",
+        "commit": "a4fdb87bd2e998eea670f873a633883c615758ca"
+      },
+      {
+        "path": "models/Equine/Legs/Right_Front/Radius.glb",
+        "commit": "a4fdb87bd2e998eea670f873a633883c615758ca"
+      }
+    ],
+    "carpus": [
+      {
+        "path": "models/Equine/Legs/Left_Front/Fourth_Carpal.glb",
+        "commit": "a4fdb87bd2e998eea670f873a633883c615758ca"
+      },
+      {
+        "path": "models/Equine/Legs/Left_Front/Intermediate_Carpal.glb",
+        "commit": "a4fdb87bd2e998eea670f873a633883c615758ca"
+      },
+      {
+        "path": "models/Equine/Legs/Left_Front/Radial_Carpal.glb",
+        "commit": "a4fdb87bd2e998eea670f873a633883c615758ca"
+      },
+      {
+        "path": "models/Equine/Legs/Left_Front/Second_Carpal.glb",
+        "commit": "a4fdb87bd2e998eea670f873a633883c615758ca"
+      },
+      {
+        "path": "models/Equine/Legs/Left_Front/Third_Carpal.glb",
+        "commit": "a4fdb87bd2e998eea670f873a633883c615758ca"
+      },
+      {
+        "path": "models/Equine/Legs/Left_Front/Ulnar_Accessory_Carpal.glb",
+        "commit": "a4fdb87bd2e998eea670f873a633883c615758ca"
+      },
+      {
+        "path": "models/Equine/Legs/Right_Front/Fourth_Carpal.glb",
+        "commit": "a4fdb87bd2e998eea670f873a633883c615758ca"
+      },
+      {
+        "path": "models/Equine/Legs/Right_Front/Intermediate_Carpal.glb",
+        "commit": "a4fdb87bd2e998eea670f873a633883c615758ca"
+      },
+      {
+        "path": "models/Equine/Legs/Right_Front/Radial_Carpal.glb",
+        "commit": "a4fdb87bd2e998eea670f873a633883c615758ca"
+      },
+      {
+        "path": "models/Equine/Legs/Right_Front/Second_Carpal.glb",
+        "commit": "a4fdb87bd2e998eea670f873a633883c615758ca"
+      },
+      {
+        "path": "models/Equine/Legs/Right_Front/Third_Carpal.glb",
+        "commit": "a4fdb87bd2e998eea670f873a633883c615758ca"
+      },
+      {
+        "path": "models/Equine/Legs/Right_Front/Ulnar_Accessory_Carpal.glb",
+        "commit": "a4fdb87bd2e998eea670f873a633883c615758ca"
+      }
+    ],
+    "metacarpus": [
+      {
+        "path": "models/Equine/Legs/Left_Front/Cannon.glb",
+        "commit": "a4fdb87bd2e998eea670f873a633883c615758ca"
+      },
+      {
+        "path": "models/Equine/Legs/Right_Front/Cannon.glb",
+        "commit": "a4fdb87bd2e998eea670f873a633883c615758ca"
+      }
+    ],
+    "front_splints": [
+      {
+        "path": "models/Equine/Legs/Left_Front/Splints.glb",
+        "commit": "a4fdb87bd2e998eea670f873a633883c615758ca"
+      },
+      {
+        "path": "models/Equine/Legs/Right_Front/Splints.glb",
+        "commit": "a4fdb87bd2e998eea670f873a633883c615758ca"
+      }
+    ],
+    "front_phalanges": [
+      {
+        "path": "models/Equine/Legs/Left_Front/Coffin.glb",
+        "commit": "a4fdb87bd2e998eea670f873a633883c615758ca"
+      },
+      {
+        "path": "models/Equine/Legs/Left_Front/Long_Pastern.glb",
+        "commit": "a4fdb87bd2e998eea670f873a633883c615758ca"
+      },
+      {
+        "path": "models/Equine/Legs/Left_Front/Short_Pastern.glb",
+        "commit": "a4fdb87bd2e998eea670f873a633883c615758ca"
+      },
+      {
+        "path": "models/Equine/Legs/Right_Front/Coffin.glb",
+        "commit": "a4fdb87bd2e998eea670f873a633883c615758ca"
+      },
+      {
+        "path": "models/Equine/Legs/Right_Front/Long_Pastern.glb",
+        "commit": "a4fdb87bd2e998eea670f873a633883c615758ca"
+      },
+      {
+        "path": "models/Equine/Legs/Right_Front/Short_Pastern.glb",
+        "commit": "a4fdb87bd2e998eea670f873a633883c615758ca"
+      }
+    ],
+    "front_sesamoids": [
+      {
+        "path": "models/Equine/Legs/Left_Front/Navicular.glb",
+        "commit": "a4fdb87bd2e998eea670f873a633883c615758ca"
+      },
+      {
+        "path": "models/Equine/Legs/Left_Front/Sesamoids.glb",
+        "commit": "a4fdb87bd2e998eea670f873a633883c615758ca"
+      },
+      {
+        "path": "models/Equine/Legs/Right_Front/Navicular.glb",
+        "commit": "a4fdb87bd2e998eea670f873a633883c615758ca"
+      },
+      {
+        "path": "models/Equine/Legs/Right_Front/Sesamoids.glb",
+        "commit": "a4fdb87bd2e998eea670f873a633883c615758ca"
+      }
+    ],
+    "pelvis": [
+      {
+        "path": "models/Equine/Pelvis_Tail/Pelvis.glb",
+        "commit": "a4fdb87bd2e998eea670f873a633883c615758ca"
+      }
+    ],
+    "femur": [
+      {
+        "path": "models/Equine/Legs/Left_Back/Femur.glb",
+        "commit": "a4fdb87bd2e998eea670f873a633883c615758ca"
+      },
+      {
+        "path": "models/Equine/Legs/Right_Back/Femur.glb",
+        "commit": "a4fdb87bd2e998eea670f873a633883c615758ca"
+      }
+    ],
+    "patella": [
+      {
+        "path": "models/Equine/Legs/Left_Back/Patella.glb",
+        "commit": "a4fdb87bd2e998eea670f873a633883c615758ca"
+      },
+      {
+        "path": "models/Equine/Legs/Right_Back/Patella.glb",
+        "commit": "a4fdb87bd2e998eea670f873a633883c615758ca"
+      }
+    ],
+    "tibia": [
+      {
+        "path": "models/Equine/Legs/Left_Back/Tibia.glb",
+        "commit": "a4fdb87bd2e998eea670f873a633883c615758ca"
+      },
+      {
+        "path": "models/Equine/Legs/Right_Back/Tibia.glb",
+        "commit": "a4fdb87bd2e998eea670f873a633883c615758ca"
+      }
+    ],
+    "fibula": [
+      {
+        "path": "models/Equine/Legs/Left_Back/Fibula.glb",
+        "commit": "a4fdb87bd2e998eea670f873a633883c615758ca"
+      },
+      {
+        "path": "models/Equine/Legs/Right_Back/Fibula.glb",
+        "commit": "a4fdb87bd2e998eea670f873a633883c615758ca"
+      }
+    ],
+    "calcaneus": [
+      {
+        "path": "models/Equine/Legs/Left_Back/Calcaneus.glb",
+        "commit": "a4fdb87bd2e998eea670f873a633883c615758ca"
+      },
+      {
+        "path": "models/Equine/Legs/Right_Back/Calcaneus.glb",
+        "commit": "a4fdb87bd2e998eea670f873a633883c615758ca"
+      }
+    ],
+    "tarsus": [
+      {
+        "path": "models/Equine/Legs/Left_Back/Central_Tarsal.glb",
+        "commit": "a4fdb87bd2e998eea670f873a633883c615758ca"
+      },
+      {
+        "path": "models/Equine/Legs/Left_Back/Fourth_Tarsal.glb",
+        "commit": "a4fdb87bd2e998eea670f873a633883c615758ca"
+      },
+      {
+        "path": "models/Equine/Legs/Left_Back/Talus.glb",
+        "commit": "a4fdb87bd2e998eea670f873a633883c615758ca"
+      },
+      {
+        "path": "models/Equine/Legs/Left_Back/Third_Tarsal.glb",
+        "commit": "a4fdb87bd2e998eea670f873a633883c615758ca"
+      },
+      {
+        "path": "models/Equine/Legs/Right_Back/Central_Tarsal.glb",
+        "commit": "a4fdb87bd2e998eea670f873a633883c615758ca"
+      },
+      {
+        "path": "models/Equine/Legs/Right_Back/Fourth_Tarsal.glb",
+        "commit": "a4fdb87bd2e998eea670f873a633883c615758ca"
+      },
+      {
+        "path": "models/Equine/Legs/Right_Back/Talus.glb",
+        "commit": "a4fdb87bd2e998eea670f873a633883c615758ca"
+      },
+      {
+        "path": "models/Equine/Legs/Right_Back/Third_Tarsal.glb",
+        "commit": "a4fdb87bd2e998eea670f873a633883c615758ca"
+      }
+    ],
+    "metatarsus": [
+      {
+        "path": "models/Equine/Legs/Left_Back/Cannon.glb",
+        "commit": "a4fdb87bd2e998eea670f873a633883c615758ca"
+      },
+      {
+        "path": "models/Equine/Legs/Right_Back/Cannon.glb",
+        "commit": "a4fdb87bd2e998eea670f873a633883c615758ca"
+      }
+    ],
+    "hind_splints": [
+      {
+        "path": "models/Equine/Legs/Left_Back/Splint_Fourth_Metatarsal.glb",
+        "commit": "a4fdb87bd2e998eea670f873a633883c615758ca"
+      },
+      {
+        "path": "models/Equine/Legs/Left_Back/Splint_Second_Metatarsal.glb",
+        "commit": "a4fdb87bd2e998eea670f873a633883c615758ca"
+      },
+      {
+        "path": "models/Equine/Legs/Right_Back/Splint_Fourth_Metatarsal.glb",
+        "commit": "a4fdb87bd2e998eea670f873a633883c615758ca"
+      },
+      {
+        "path": "models/Equine/Legs/Right_Back/Splint_Second_Metatarsal.glb",
+        "commit": "a4fdb87bd2e998eea670f873a633883c615758ca"
+      }
+    ],
+    "hind_phalanges": [
+      {
+        "path": "models/Equine/Legs/Left_Back/Coffin.glb",
+        "commit": "a4fdb87bd2e998eea670f873a633883c615758ca"
+      },
+      {
+        "path": "models/Equine/Legs/Left_Back/Long_Pastern.glb",
+        "commit": "a4fdb87bd2e998eea670f873a633883c615758ca"
+      },
+      {
+        "path": "models/Equine/Legs/Left_Back/Short_Pastern.glb",
+        "commit": "a4fdb87bd2e998eea670f873a633883c615758ca"
+      },
+      {
+        "path": "models/Equine/Legs/Right_Back/Coffin.glb",
+        "commit": "a4fdb87bd2e998eea670f873a633883c615758ca"
+      },
+      {
+        "path": "models/Equine/Legs/Right_Back/Long_Pastern.glb",
+        "commit": "a4fdb87bd2e998eea670f873a633883c615758ca"
+      },
+      {
+        "path": "models/Equine/Legs/Right_Back/Short_Pastern.glb",
+        "commit": "a4fdb87bd2e998eea670f873a633883c615758ca"
+      }
+    ],
+    "hind_sesamoids": [
+      {
+        "path": "models/Equine/Legs/Left_Back/Navicular.glb",
+        "commit": "a4fdb87bd2e998eea670f873a633883c615758ca"
+      },
+      {
+        "path": "models/Equine/Legs/Left_Back/Sesamoids.glb",
+        "commit": "a4fdb87bd2e998eea670f873a633883c615758ca"
+      },
+      {
+        "path": "models/Equine/Legs/Right_Back/Navicular.glb",
+        "commit": "a4fdb87bd2e998eea670f873a633883c615758ca"
+      },
+      {
+        "path": "models/Equine/Legs/Right_Back/Sesamoids.glb",
+        "commit": "a4fdb87bd2e998eea670f873a633883c615758ca"
+      }
+    ],
+    "ribs": [
+      {
+        "path": "models/Equine/Ribs/Ribs.glb",
+        "commit": "ea9c85c2b647a030d486f15bb3dd73b8562d6c71"
+      }
+    ]
+  }
+}
